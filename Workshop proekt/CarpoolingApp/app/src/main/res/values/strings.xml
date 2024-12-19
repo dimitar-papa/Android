@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Carpooling App</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="payment">Payment Info</string>
+    <string name="user_type">User Type (driver/rider)</string>
+    <string name="start_location">Start Location</string>
+    <string name="destination">Destination</string>
+    <string name="departure_time">Departure Time</string>
+    <string name="car_model">Car Model</string>
+    <string name="cost">Cost</string>
+    <string name="rating">Rating</string>
+    <string-array name="user_types">
+        <item>Driver</item>
+        <item>Rider</item>
+    </string-array>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/tvStartLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Location"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Destination" />
+
+    <TextView
+        android:id="@+id/tvDepartureTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Departure Time" />
+
+    <TextView
+        android:id="@+id/tvCarModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Car Model" />
+
+    <TextView
+        android:id="@+id/tvCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cost" />
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etPickupLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pickup Location"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etDropoffLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dropoff Location"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/etRideTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ride Time (e.g., HH:MM)"
+        android:inputType="time" />
+
+
+    <EditText
+        android:id="@+id/etCarModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Car Model"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cost"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnSaveRideDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Ride Details"
+        android:onClick="saveRideDetails" />
+</LinearLayout>
